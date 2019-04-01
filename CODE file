@@ -1,0 +1,2197 @@
+#include<iostream>//used for std input and output
+#include<fstream>
+#include<string.h>
+#include<conio.h>
+using namespace std;
+char ch;
+class abc
+{
+	char y[100],f[100],m[100];
+	int a;
+	
+		
+	public:
+		void name()
+		{
+			system("color E");
+			ofstream outFile;
+            outFile.open ("mahesh.txt");//using constructor file
+			cout<<"enter student name :";
+			cin>>y;
+		    outFile<<endl<<"student name is :";
+			outFile<<y;
+			cout<<"enter your age :";
+			cin>>a;
+			outFile<<endl<<"student age is :";
+			outFile<<a;
+			cout<<"enter your father name :";
+			cin>>f;
+			outFile<<endl<<"student's father  name is :";
+			outFile<<f;
+			cout<<"enter your mother name :";
+			cin>>m;
+			outFile<<endl<<"student's mother name is :";
+			outFile<<m;
+			outFile.close();
+	    }
+		    
+};
+class bcd:public abc//inheritence
+{
+    public:
+    	void menu()
+   {
+   	int p,s;
+	
+	cout<<"on the basis of percentage"<<endl;
+	KMP:
+	cout<<"1.After 10th "<<endl<<"2.After 12th"<<endl<<"3.After graduation"<<endl<<"4.Lateral entry"<<endl;
+	cout<<"enter correct choices only"<<endl;
+	cin>>p;
+	switch(p)
+	{
+		case 1:
+			{
+								int d;
+								PSP:
+								cout<<"which discipline are you intrested in"<<endl;
+								cout<<"1.engineering"<<endl<<"2.management"<<endl<<"3.design"<<endl<<"4.hotelManagement and tourism"<<endl<<"5.fashion design"<<endl<<"6.achitecture"<<endl;
+								cin>>d;
+								switch(d)
+								{
+									case 1:
+										{
+											int c;
+											PSPK:
+									        cout<<"choose a stream"<<endl;
+									        cout<<"1.ECE"<<endl<<"2.EE"<<endl<<"3.CSE"<<endl<<"4.MEC"<<endl<<"5.AE"<<endl<<"6.CE"<<endl;
+									        cin>>c;
+									        switch(c)
+									        {
+									        	case 1:
+									        		{
+									        			other();
+									        			break;
+													}
+												case 2:
+												{
+													other();
+													break;
+												}	
+												case 3:
+													{
+														m();
+														break;
+													}
+												case 4:
+													{
+														other();
+														break;
+													}
+												case 5:
+												{
+												other();
+												break;	
+												}	
+												case 6:
+													{
+														other();
+														break;
+													}
+												default:
+												{
+													cout<<"enter correct choice"<<endl;
+													goto PSPK;
+												}
+											}
+										}
+								case 2:
+								{
+								
+										
+										other();
+										break;
+																				
+								}	
+								case 3:
+								{
+				
+										cout<<"choose a stream"<<endl;
+										cout<<"1.fashion"<<endl;
+										other();
+										break;
+										
+										
+								}
+								case 4:
+								{
+								int h;
+								AED:
+								cout<<"choose a stream"<<endl;
+								cout<<"1.diploma in food production"<<endl<<"2.diploma in bakery and confectionary"<<endl;
+								cin>>h;
+								switch(h)
+								{
+									case 1:
+										{	
+										    other();
+											break;
+										}
+										case 2:
+											{	other();
+											    break;
+											}
+											default:
+												{
+													goto AED;
+												}
+								}	
+								}
+								case 5:
+								{
+								int f;
+								MSR:
+								cout<<"choose a stream"<<endl;
+								cout<<"1.diploma in fashion design"<<endl<<"2.diploma in b-design  fashion"<<endl;
+								cin>>f;
+								switch(f)
+								{
+									case 1:
+										{	other();
+											break;
+										}
+									case 2:
+									{	    other();
+											break;
+									}
+									default:
+									{
+										goto MSR;
+									}	
+								}	
+								}
+								case 6:
+								{
+									int a;
+									FOR:
+									cout<<"choose a stream"<<endl;
+									cout<<"1.diploma in architectural assistantship"<<endl<<"2.architectural assistant in b-design"<<endl;
+									cin>>a;
+									switch(a)
+									{
+										case 1:
+											{	
+											    other();
+											    break;
+											}
+											case 2:
+												{	other();
+											        break;
+												}
+												default:
+													{
+														goto FOR;
+													}
+									}
+									
+								}
+								default:
+										{
+											cout<<"enter correct choice"<<endl;
+											goto PSP;
+										}
+							}
+						
+							
+									
+							    }//completed case1 
+								
+								
+								
+							    case 2:
+							    	{
+							    	int g;
+							    	sai:
+									cout<<"1.engineering"<<endl<<"2.management"<<endl<<"3.applied medical sciences"<<endl<<"4.computer applications "<<endl<<"5.journalism and Filemproduction"<<endl<<"6.zoology or library science"<<endl;
+									cin>>g;
+									switch(g)
+									{
+									case 1:
+
+										{
+											int c;
+											really:
+									        cout<<"choose a stream"<<endl;
+									        cout<<"1.ECE"<<endl<<"2.EE"<<endl<<"3.CSE"<<endl<<"4.MEC"<<endl<<"5.AE"<<endl<<"6.CE"<<endl;
+									        cin>>c;
+									        switch(c)
+									        {
+									        	case 1:
+									        		{
+									        			other();
+									        			break;
+													}
+												case 2:
+												{
+													other();
+													break;
+												}	
+												case 3:
+													{
+														m();
+														break;
+													}
+												case 4:
+													{
+														other();
+														break;
+													}
+												case 5:
+												{
+												other();
+												break;	
+												}	
+												case 6:
+													{
+													    other();
+														break;
+													}
+												default:
+												{
+													cout<<"enter correct choice"<<endl;
+													goto really;
+												}
+											}
+										}
+										case 2:
+				           				{
+								
+										
+										other();
+										break;
+																				
+									}	
+							      	case 3:
+							    	{
+					                                    int s;
+					                                    rash:
+														cout<<"1.pharmaceutical sciences"<<endl<<"2.phsiotherapy"<<endl<<"3.medical laboratory sciences"<<endl;
+														cin>>s;
+														switch(s)
+														{ case 1:
+															{	
+															    other();
+														        
+														        break;
+															}
+															case 2:
+																{	
+																    other();
+														            
+														            break;
+																}
+															case 3:
+															{
+																	other();
+														            
+														             break;
+																}
+															default:
+															{  
+															   cout<<"enter correct choice"<<endl;
+												            	goto rash;
+														    }	
+															
+								}
+							case 4:
+							{ 
+								int c;
+								mars:
+								cout<<"choose a stream"<<endl;
+								cout<<"1.B.SC(informationtechnology)"<<endl<<"2.B.SC(COMputer science)"<<endl;
+								cin>>c;
+								switch(c)
+								{
+									case 1:
+										{	other();
+											
+											break;
+										}
+									case 2:
+									{	    other();
+											
+											break;
+									}
+									default:
+									{
+										goto mars;
+								}
+							}
+						}
+								case 5:
+								{
+								int f;
+								mask:
+								cout<<"choose a stream"<<endl;
+								cout<<"1.BSC(film and tv production)"<<endl<<"2.BA(journalism and mass communication)"<<endl;
+								cin>>f;
+								switch(f)
+								{
+									case 1:
+										{	other();
+										
+											break;
+										}
+									case 2:
+									{	    other();
+											
+											break;
+									}
+									default:
+									{
+										goto mask;
+									}	
+								}	
+								}
+								case 6:
+								{
+									int a;
+									ssl:
+									cout<<"choose a stream"<<endl;
+									cout<<"1.BSC(HONS )zoology"<<endl<<"2.B.SC(medical)"<<endl;
+									cin>>a;
+									switch(a)
+									{
+										case 1:
+											{	
+											    other();
+											    
+											    break;
+											}
+											case 2:
+												{	other();
+											       
+											        break;
+												}
+												default:
+													{
+														goto ssl;
+													}
+									}
+								}		
+									}	
+									}
+							    	default:
+									{
+										cout<<"enter correct choice"<<endl;
+										goto sai;
+									}
+								}
+					case 3://after graduation
+					{	
+					            int x;
+								grad:
+								cout<<"which discipline are you intrested in"<<endl;
+								cout<<"1.ENGINEERING"<<endl<<"2.MATHEMATICS"<<endl<<"3.CHEMISTRY"<<endl;
+								cin>>x;
+								switch(x)
+								{
+									case 1:
+										{
+											int c;
+										    padma:
+									        cout<<"choose a stream"<<endl;
+									        cout<<"1.ECE"<<endl<<"2.EE"<<endl<<"3.CSE"<<endl<<"4.MEC"<<endl<<"5.CHE"<<endl<<"6.CE"<<endl<<"7.MOLECULAR BIOLOGY AND GENERIC ENGINEERING"<<endl;
+									        cin>>c;
+									        switch(c)
+									        {
+									        	case 1:
+									        		{
+									        			N();
+									        			
+									        			break;
+													}
+												case 2:
+												{
+													N();
+													
+													break;
+												}	
+												case 3:
+													{
+														N();
+														
+														break;
+													}
+												case 4:
+													{
+														N();
+														
+														break;
+													}
+												case 5:
+												{
+												N();
+											
+												break;	
+												}	
+												case 6:
+													{
+														N();
+														
+														break;
+													}
+												case 7:
+												{
+												     	N();
+														
+														break;
+													
+													}	
+												default:
+												{
+													cout<<"enter correct choice"<<endl;
+													goto padma;
+												}
+											}
+											break;
+										}
+										case 2:
+											{
+												N();
+									        
+									        	break;
+											}
+										case 3:
+											{
+												N();
+									        	
+									        	break;
+											}
+											default:
+												{
+													cout<<"enter correct choice"<<endl;
+													goto grad;
+												}
+										
+										}
+					}
+					case 4://after lateral entry
+						{
+							int h;
+							cout<<"are you from engineering"<<endl;
+							mari:
+							cout<<"1.yes or no"<<endl;
+							cin>>h;
+							switch(h)
+							{
+								case 1:
+									{
+									
+									int l;
+									gogo:
+									cout<<"what is your last qualification"<<endl;
+									cout<<"1,diploma or certificate"<<endl<<"2.graduation"<<endl;
+									cin>>l;
+									switch(l)
+									{
+										case 1:
+											{
+												int b;
+												pk:
+												cout<<"select a stream"<<endl;
+												cout<<"1.ENGINEERING"<<endl<<"2.COMMERCE"<<endl<<"3.PHYSICAL EDCUATION"<<endl<<"4.FASHION DESIGN"<<endl<<"5.physiotherapy"<<endl;
+												cin>>b;
+												switch(b)
+												{
+													case 1:
+													{	
+											            int c;
+											            real:
+									                    cout<<"choose a stream"<<endl;
+									                    cout<<"1.ECE"<<endl<<"2.EE"<<endl<<"3.CSE"<<endl<<"4.MEC"<<endl<<"5.AE"<<endl<<"6.CE"<<endl;
+									                    cin>>c;
+									                   switch(c)
+									                    { 
+									        	          case 1:
+									        		      {
+									        			    other();
+									        		      
+									        			    break;
+									        			   }
+									        			   case 2:
+									        			   	{
+									        			   		other();
+									        		      	    
+									        			        break;
+															}
+															case 3:
+																{
+																	m();
+									        		      	       
+									        			            break;
+																}
+																case 4:
+																	{
+																	    other();
+									        		      	           
+									        			                break;
+																	}
+																case 5:
+																	{
+																		other();
+									        		                   
+									        			                break;
+																	}
+																case 6:
+																{
+																	other();
+									        		               	
+									        			            break;
+																}
+																default:
+																{
+																	cout<<"enter correct choice"<<endl;
+																	goto real;
+																}	
+															}
+														
+														}
+															default:
+																{
+																	cout<<"enter correct choice"<<endl;
+																	goto pk;
+																}
+													
+												
+														case 2://commerce
+														{
+															cout<<"student course is B.COM"<<endl;
+															other();
+									        		        
+									        			    break;
+															
+														}
+														case 3://physical edcuation
+															{
+																cout<<"student course is B.SC(health and physical edcutation)"<<endl;
+																other();
+									        		            
+									        			        break;
+																
+															}
+														case 4://fashion design
+														{
+															int h;
+															fashion:
+															cout<<"your courses are"<<endl;
+															cout<<"1.B.SC(DESIGN-FASHION)"<<endl<<"2.B.DESIGN"<<endl;
+															cin>>h;
+															switch(h)
+															{
+																case 1:
+																	{   
+																	    other();
+									        		                   
+									        			                break;
+																	}
+																case 2:
+															    	{
+																	   other();
+									        		                   
+									        			                break;
+																	}	
+																	default:
+																		{
+																			cout<<"enter correct choice"<<endl;
+																			goto fashion;
+																		}
+															}
+													    	}
+															case 5://physiotherapy
+																{
+																	cout<<"your couse is BACHELOR OF PHYSIOTHERAPY"<<endl;
+																    other();
+									        		               
+									        			            break;
+																}
+																
+												}
+														}
+														
+													}
+												}
+												case 2:
+													{
+														int c;
+														cout<<"enter discipline which you want "<<endl;
+														india:
+														cout<<"1.COMPUTER APPLICATIONS AND IT"<<endl<<"2.HOTEL MANAGEMENT AND TOURISM"<<endl;
+														cin>>c;
+														switch(c)
+														{
+															case 1:
+																{
+																	int d;
+																	cout<<"select course"<<endl;
+																	lateral:
+																	cout<<"1.MCA"<<endl<<"2.MCA(HONS)"<<endl<<"3.M.Sc(computer science)"<<endl;
+																	cin>>d;
+																	switch(d)
+																	{
+																		case 1:
+																			{	
+																			   other();
+									        		                            
+									        			                        break;
+																			}
+																		case 2:
+																		{
+																				other();
+									        		                            
+									        			                         break;
+																		}
+																		case 3:
+																			{	
+																			  other();
+									        		                            
+									        			                        break;
+																			}
+																		default:
+																		{
+																			cout<<"enter correct choice"<<endl;
+																			goto lateral;
+																			}	
+																			
+																	}
+																}
+																case 2:
+																	{
+																		cout<<"your couse is M.Sc(HOTEL MANAGEMENT)"<<endl;
+																		other();
+									        		                    
+									        			                break;
+																	}
+																default:
+																{
+																	cout<<"enter correct choice"<<endl;
+																	goto india;
+																	}	
+														}
+													}
+											
+											default:
+												{
+													cout<<"enter correct choice"<<endl;
+													goto mari;
+												}
+										}
+									
+									}
+								
+									
+										
+										
+									
+						        }
+						        	
+			
+								
+				}
+		
+		
+		void m()
+		{
+		            int b;
+		            char c[100]="computerscience";
+					computer:
+					cout<<"enter the course you want to join"<<endl;
+					cout<<" 1.computerscience"<<endl<<"2.computerscience honors"<<endl;
+					cin>>b;
+					switch(b)
+					{
+					
+						case 1:
+							{
+							
+							int v;
+						    MASS:
+							cout<<"1.lpu test is written"<<endl<<"2.lpu test is not written"<<endl;
+							cin>>v;
+				        	switch(v)
+							{
+							
+							case 1:
+								{
+								
+								int l,t;
+								
+								abc:
+									ofstream outFile;
+									outFile.open("mahesh.txt",ios::app);
+									outFile<<endl<<"STUDENT INFORMATION IS : ";
+									cout<<"enter 12th marks :";
+							     	cin>>t;
+							     	outFile<<endl<<"student  12th marks are :";
+							     	outFile<<t;
+								    cout<<"enter lpunest marks :";
+								    cin>>l;
+								    outFile<<endl<<"student LPU NEST marks are :";
+								    outFile<<l;
+								    outFile<<endl<<"student course is :";
+									outFile<<c;
+								    outFile.close();
+								    
+								if(((t>=900&&t<=1000)&&(l<=300))||((l>=200&&l<=300)&&(t>=700&&t<=1000)))
+								{
+									
+							       int fees=89500; 
+								    name();
+								    cout<<"student fees per sem is : 89500"<<endl<<"student fees per sem with scholarship is : 14500"<<endl;
+								    ofstream outFile;
+								    outFile.open("mahesh.txt",ios::app);
+								    outFile<<endl<<"student fees per sem is :";
+								    outFile<<fees;
+								    outFile<<endl<<"student fees per sem with scholarship is : 15000 ";
+								    outFile.close();
+									cout<<endl<<"you want to know about other course :"<<endl;
+									cout<<"press Y "<<endl;
+									cin>>ch;
+									if(ch=='Y'||ch=='y')
+									{
+										 menu();
+									}
+									else
+									{
+										exit(0);
+									}
+								}
+								else if(((t>=800&&t<900)&&(l<=300))||((l>=170)&&(l<200)&&(t>=700&&t<=1000)))
+								{   
+								       int fees=114500;
+								   
+									name();
+									cout<<"student fees per sem is :114,500"<<endl<<"student fees per sem with scholarship is: 39500"<<endl;
+									ofstream outFile;
+								    outFile.open("mahesh.txt",ios::app);
+								    outFile<<endl<<"student fees per sem is : ";
+								    outFile<<fees;
+								    outFile<<endl<<"student fees per sem with scholarship is : 39500 ";
+								    outFile.close();
+									cout<<endl<<"you want to know about other course : "<<endl;
+									cout<<"press Y "<<endl;
+									cin>>ch;
+									if(ch=='Y'||ch=='y')
+									{
+										 menu();
+									}
+									else
+									{
+										exit(0);
+									}
+								
+								}
+								else if(((t>=700&&t<800)&&(l<=300))||((l>120)&&(l<150)&&(t>=700&&t<=1000)))
+								{   
+								    int fees=139500;
+								    name();
+									cout<<"student fees per sem  is :139,500"<<endl<<"student fees per sem with scholarship is: 64500"<<endl;
+									ofstream outFile;
+								    outFile.open("mahesh.txt",ios::app);
+								    outFile<<endl<<"student fees per sem is :";
+								    outFile<<fees;
+								    outFile<<endl<<"student fees per sem with scholarship is : 64500 ";
+								    outFile.close();
+									cout<<"you want to know about other course :"<<endl;
+									cout<<"press Y  "<<endl;
+									cin>>ch;
+									if(ch=='Y'||ch=='y')
+									{
+										 menu();
+									}
+									else
+									{
+										exit(0);
+									}
+								}
+								else if(t>1000||l>300)
+								{
+									cout<<"enter correct marks"<<endl;
+									goto abc;
+								}
+								else if((t<700&&l>120)||(t>700&&l<120))
+								{
+									cout<<"you are not selected for admission in lpu"<<endl;
+									cout<<"you want to know about  other course : "<<endl;
+									cout<<"press Y "<<endl;
+									cin>>ch;
+									if(ch=='Y'||ch=='y')
+									{
+										 menu();
+									}
+									else
+									{
+										exit(0);
+									}
+									
+								}
+								else 
+								{
+									cout<<" sorry you are not eligible for lpu admission with scholarship";
+									cout<<"you want to know about  other course :"<<endl;
+									cout<<"press Y "<<endl;
+									cin>>ch;
+									if(ch=='Y'||ch=='y')
+									{
+										 menu();
+									}
+									else
+									{
+										exit(0);
+									}
+								
+									
+								}
+								break;
+							}
+							case 2:
+							{
+								int r,j;
+								VFX:
+									ofstream outFile;
+									outFile.open("mahesh.txt",ios::app);
+									outFile<<endl<<"STUDENT INFORMATION IS   : ";
+									cout<<"enter 10th marks must be in percentage form"<<endl;
+							     	cin>>r;
+							     	outFile<<endl<<"student  10th marks are :";
+							     	outFile<<r;
+								    cout<<"enter 12th marks :";
+								    cin>>j;
+								    outFile<<endl<<"student  12th marks are :";
+								    outFile<<j;
+								    outFile<<endl<<"student course is :";
+									outFile<<c<<endl;
+								    outFile.close();
+								
+								if(((r>=90&&r<100)&&(j>=700&&j<=1000))||((j>900&&j<1000)&&(r>=70&&r<=100)))
+								{  
+								    int fees=89500;
+								    name();
+									cout<<"student fees per sem is : 89,500"<<endl<<"student fees per sem with scholarship is : 14500"<<endl;
+									ofstream outFile;
+								    outFile.open("mahesh.txt",ios::app);
+								    outFile<<endl<<"student fees per sem is : ";
+								    outFile<<fees;
+								    outFile<<endl<<"student fees per sem with scholarship is : 15000 ";
+								    outFile.close();
+									cout<<"you want to know about other course :"<<endl;
+									cout<<"press Y "<<endl;
+									cin>>ch;
+									if(ch=='Y'||ch=='y')
+									{
+										 menu();
+									}
+									else
+									{
+										exit(0);
+									}
+								}
+								else if(((r>=80&&r<90)&&(j>=700&&j<=1000))||((j>800&&j<900)&&(r>=70&&r<=100)))
+								{
+									int fees=114500;
+								    name();
+									cout<<"student fees per sem  is 1,14,500"<<endl<<"student fees per sem is 39500"<<endl;
+									ofstream outFile;
+								    outFile.open("mahesh.txt",ios::app);
+								    outFile<<endl<<"student fees per sem is  : ";
+								    outFile<<fees;
+								    outFile<<endl<<"student fees per sem with scholarship is : 39500 "; 
+								    outFile.close();
+									cout<<"you want to know about other course : "<<endl;
+									cout<<"press Y "<<endl;
+									cin>>ch;
+									if(ch=='Y'||ch=='y')
+									{
+										 menu();
+									}
+									else
+									{
+										exit(0);
+									}
+								}
+								else if(((r>=70&&r<80)&&(j>=700&&j<=1000))||((j>700&&j<800)&&(r>=70&&r<=100)))
+								{ 
+								    int fees=139500;
+								    name();
+									cout<<"student fees per sem is : 139,500"<<endl<<"student fees per sem with scholarship is : 64,500"<<endl;
+									ofstream outFile;
+								    outFile.open("mahesh.txt",ios::app);
+								    outFile<<endl<<"student fees per sem is : ";
+								    outFile<<fees;
+								    outFile<<endl<<"student fees per sem with scholarship is : 64500 ";
+								    outFile.close();
+									cout<<"you want to know about course : "<<endl;
+									cout<<"press Y "<<endl;
+									cin>>ch;
+									if(ch=='Y'||ch=='y')
+									{
+										menu();
+									}
+									else
+									{
+										exit(0);
+									}
+						       	}
+								else if(r>100||j>1000)
+								{
+									cout<<"enter correct marks"<<endl;
+									goto VFX;
+								}
+								else if((r<70&&j>700)||(r>70&&j<700)||(r<70&&j<700))
+								{
+									cout<<"you are not eligible for lpu admission "<<endl;
+									system("CLS");
+									cout<<"you want to know about other course : "<<endl;
+									cout<<"press Y "<<endl;
+								    cin>>ch;
+							           		if(ch=='Y'||ch=='y')
+									            {
+										             menu();
+									            }
+								           	else
+									            {
+										             exit(0);
+								             	}
+								              
+								}
+								else
+								{
+									cout<<"sorry you are not eligible for lpu admission";
+									system("CLS");
+									cout<<"you want to know about other course : "<<endl;
+									cout<<"press Y "<<endl;
+									cin>>ch;
+									if(ch=='Y'||ch=='y')
+									{
+										 menu();
+									}
+									else
+									{
+										exit(0);
+									}
+								}
+									
+								break;
+						   	}
+						   	default:
+						   		{
+						   			cout<<"enter correct choice"<<endl;
+						   			goto MASS;
+						   			
+								   }
+						   }
+					
+						case 2://honors//
+						   		{
+						   			int v;
+						   			cout<<"1.lpu test is written"<<endl<<"2.lpu test is not written"<<endl;
+						   			cin>>v;
+						   			switch(v)
+						   			{
+									   case 1:
+									   {
+									   	int l,t;
+									   	CAD:
+									   		ofstream outFile;
+									        outFile.open("mahesh.txt",ios::app);
+									        outFile<<endl<<"STUDENT INFORMATION IS   : ";
+						         			cout<<"enter 12th marks : ";
+							            	cin>>t;
+							     	        outFile<<endl<<"student  12th marks are :";
+							            	outFile<<t;
+								            cout<<"enter lpunest marks :";
+								            cin>>l;
+								            outFile<<endl<<"student LPU NEST marks are :";
+								            outFile<<l;
+								            outFile<<endl<<"student course is :";
+								           	outFile<<c;
+								            outFile.close();
+									   	
+									   		if(((t>900)&&(t<1000)&&(l<=300))||((l>250)&&(l<=300)&&(t>=700&&t<=1000)))
+									   		{
+									   			int fees=99500;
+									   			name();
+						                        cout<<"student fees per sem  is : 99,500"<<endl<<"student fees per sem with scholarship is : 24,500"<<endl;
+						                        ofstream outFile;
+								                outFile.open("mahesh.txt",ios::app);
+								                outFile<<endl<<"student fees per sem is : ";
+								                outFile<<fees;
+								                outFile<<endl<<"student fees per sem with scholarship is : 24500 ";
+								                outFile.close();
+						                        cout<<"you want to know about other course : "<<endl;
+								              	cout<<"press Y "<<endl;
+								             	cin>>ch;
+							             		if(ch=='Y'||ch=='y')
+									            {
+										             menu();
+									            }
+								             	else
+									            {
+										             exit(0);
+								             	}
+						                        
+						                        
+						                        
+											}
+											else if(((t>800)&&(t<900)&&(l<=300))||((l>200)&&(l<250)&&(l<300)&&(t>=700&&t<=1000)))
+											{  
+											   int fees=124500;
+											   name();
+											   cout<<"student fees per sem is :124,500"<<endl<<"student fees per sem with scholarship is : 49,500"<<endl;
+											   ofstream outFile;
+								               outFile.open("mahesh.txt",ios::app);
+								               outFile<<endl<<"student fees per sem is  : ";
+								               outFile<<fees;
+								               outFile<<endl<<"student fees per sem with scholarship is : 49500 ";
+								               outFile.close();
+											   cout<<"you want to know about course : "<<endl;
+								              	cout<<"press Y "<<endl;
+								             	cin>>ch;
+							             		if(ch=='Y'||ch=='y')
+									            {
+										             menu();
+									            }
+								             	else
+									            {
+										             exit(0);
+								             	}
+											   
+											}
+											else if(((t>700)&&(t<800)&&(l<=300))||((l>150)&&(l<200)&&(t>=700&&t<=1000)))
+											{
+												int fees=149500;
+											    name();
+												cout<<"student fees per sem is : 149,500"<<endl<<"student fees per sem with scholarship is : 74,500"<<endl;
+												ofstream outFile;
+								                outFile.open("mahesh.txt",ios::app);
+								                outFile<<endl<<"student fees per sem is  : ";
+								                outFile<<fees;
+								                outFile<<endl<<"student fees per sem with scholarship is : 74500 ";
+								                outFile.close();
+												cout<<"you want to know about other course : "<<endl;
+								              	cout<<"press Y "<<endl;
+								             	cin>>ch;
+							             		if(ch=='Y'||ch=='y')
+									            {
+										             menu();
+									            }
+								             	else
+									            {
+										             exit(0);
+								             	}
+												
+											}
+											else if(t>1000||l>300)
+											{
+												cout<<"enter correct marks"<<endl;
+												goto CAD;
+											}
+											else if((t<700&&l>120)||(t>700&&l>300))
+											{
+												cout<<"you are not eligible for admission in lpu"<<endl;
+												cout<<"you want to know about other course : "<<endl;
+								              	cout<<"press Y "<<endl;
+								             	cin>>ch;
+							             		if(ch=='Y'||ch=='y')
+									            {
+										             menu();
+									            }
+								             	else
+									            {
+										             exit(0);
+								             	}
+											}
+											else
+											{
+												cout<<"sorry you are not eligible for admission in lpu"<<endl;
+												cout<<"you want to know about other course : "<<endl;
+								              	cout<<"press Y "<<endl;
+								             	cin>>ch;
+							             		if(ch=='Y'||ch=='y')
+									            {
+										             menu();
+									            }
+								             	else
+									            {
+										             exit(0);
+								             	}
+												
+											}
+											break;
+									   }
+									   case 2:
+									   {
+									   	int r,j;
+									   	SIVA:
+									   		ofstream outFile;
+								           	outFile.open("mahesh.txt",ios::app);
+								           	outFile<<endl<<"STUDENT INFORMATION IS   : ";
+								           	cout<<"enter 10th marks must be in percentage form : ";
+							                cin>>r;
+							               	outFile<<endl<<"student  10th marks are :";
+							   	            outFile<<r;
+							                cout<<"enter 12th marks : ";
+							                cin>>j;
+			     			                outFile<<endl<<"student  12th marks are :";
+							                outFile<<j;
+							                outFile<<endl<<"student course is :";
+									        outFile<<c;
+								            outFile.close();
+									   	
+									   	    if(((r>=90)&&(r<100)&&(j>=700&&j<=1000))||((j>900)&&(j<1000)&&(r>=70&&r<=100)))
+									     	 {  
+											    int fees=89500;      
+										        name();
+									   		    cout<<"student fees per sem is : 89,500"<<endl<<"student fees per sem with scholarship is : 14,500"<<endl;
+									   		    ofstream outFile;
+								                outFile.open("mahesh.txt",ios::app);
+								                outFile<<endl<<"student fees per sem is  : ";
+								                outFile<<fees;
+								                outFile<<endl<<"student fees per sem with scholarship is : 14500 ";
+								                outFile.close();
+									   		    cout<<"you want to know about other course : "<<endl;
+								              	cout<<"press Y "<<endl;
+								             	cin>>ch;
+							             		if(ch=='Y'||ch=='y')
+									            {
+										             menu();
+									            }
+								             	else
+									            {
+										             exit(0);
+								             	}
+									   		    
+										}
+										else if(((r>=80&&r<90)&&(j>=700&&j<=1000))||((j>800&&j<900)&&(r>=70&&r<=100)))
+										{      
+									            int fees=114500;	
+										        name();
+											    cout<<"student fees per sem is : 1,14,500"<<endl<<"student fees per sem with scholarship is : 39,500"<<endl;
+											    ofstream outFile;
+								                outFile.open("mahesh.txt",ios::app);
+								                outFile<<endl<<"student fees per sem is  : ";
+								                outFile<<fees;
+								                outFile<<endl<<"student fees per sem with scholarship is : 39500 ";
+								                outFile.close();
+											    cout<<"you want to know about other course : "<<endl;
+								              	cout<<"press Y "<<endl;
+								             	cin>>ch;
+							             		if(ch=='Y'||ch=='y')
+									            {
+										             menu();
+									            }
+								             	else
+									            {
+										             exit(0);
+								             	}
+											    
+										}
+										else if(((r>=70&&r<80)&&(j>=700&&j<=1000))||((j>=700&&j<800)&&(r>=70&&r<=100)))
+										{ 
+										        int fees=139500;
+										        name();
+											    cout<<"student fees per sem is :139,500"<<endl<<"student fees per sem with scholarship is :64,500"<<endl;
+											    ofstream outFile;
+								                outFile.open("mahesh.txt",ios::app);
+								                outFile<<endl<<"student fees per sem is : ";
+								                outFile<<fees;
+								                outFile<<endl<<"student fees per sem with scholarship is : 64500 "; 
+								                outFile.close();
+											    cout<<"you want to know about other course : "<<endl;
+								              	cout<<"press Y "<<endl;
+								             	cin>>ch;
+							             		if(ch=='Y'||ch=='y')
+									            {
+										             menu();
+									            }
+								             	else
+									            {
+										             exit(0);
+								             	}
+											    
+										}
+										else if((r<70&&j>700)||(r>70&&j<700)||(r<70&&j<700))
+										{
+											cout<<"you are not eligible for admission in lpu"<<endl;
+											cout<<"you want to know about other course : "<<endl;
+								              	cout<<"press Y "<<endl;
+								             	cin>>ch;
+							             		if(ch=='Y'||ch=='y')
+									            {
+										             menu();
+									            }
+								             	else
+									            {
+										             exit(0);
+								             	}
+										}
+										else if(r>100||j>1000)
+										{
+											cout<<"enter correct marks"<<endl;
+											goto SIVA;
+										}
+										
+										else
+										{
+											cout<<"sorry you are not eligible for admission in lpu"<<endl;
+											cout<<"you want to know about other course : "<<endl;
+								              	cout<<"press Y "<<endl;
+								             	cin>>ch;
+							             		if(ch=='Y'||ch=='y')
+									            {
+										             menu();
+									            }
+								             	else
+									            {
+										             exit(0);
+								             	}
+										
+										}
+										break;
+									   	
+									   }
+									   default:
+									   {
+									   	cout<<"enter correct choice"<<endl;
+									   	exit(0);
+									   	
+									   }	
+									}//inner switch completed//
+								}//case 2 completed//
+							}
+							default://outer switch default 
+								{
+									cout<<"enter correct choice"<<endl;
+									goto computer;
+					
+								}
+					
+					
+					}
+		}
+				
+	
+		void other()
+		{
+			
+			int v;
+			CSE:
+			cout<<"1.lpu test is written"<<endl<<"2.lpu test  is not written"<<endl;
+			cin>>v;
+			switch(v)
+			{
+				case 1:
+					{
+						int t,l;
+						
+						MADHU:
+						ofstream outFile;
+						outFile.open("mahesh.txt",ios::app);
+						outFile<<endl<<"STUDENT INFORMATION IS   : ";
+						cout<<"enter 12th marks : ";
+				     	cin>>t;
+		     	     	outFile<<endl<<"student  12th marks are :";
+				     	outFile<<t;
+					    cout<<"enter lpunest marks : ";
+					    cin>>l;
+					    outFile<<endl<<"student LPU NEST marks are :";
+					    outFile<<l;
+					    outFile.close();				
+				     	if(((t>=900)&&(t<=1000)&&(l<=300))||((l>=200)&&(l<=300)&&(t>=700&&t<=1000)))
+						{
+							int fees=75000;
+							name();
+							cout<<" student fees per sem is :75000"<<endl<<"student fees per sem with scholarship is :15,000"<<endl;
+							ofstream outFile;
+							outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is  : ";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 15000 ";
+					        outFile.close();
+							cout<<"you want to know about other course : "<<endl;
+							cout<<"press Y "<<endl;
+    		             	cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+							
+		
+						}
+						else if(((t>=800)&&(t<900)&&(l<=300))||((l>200)&&(l<250)&&(t>=700&&t<=1000)))
+						
+						{
+							int fees=100000;
+							name();
+							cout<<"student fees per sem is : 100,000"<<endl<<"student fees per sem with scholarship is :50,000"<<endl;
+							ofstream outFile;
+							outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is  : ";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 50000 ";
+					        outFile.close();
+							cout<<"you want to know about other course : "<<endl;
+							cout<<"press Y "<<endl;
+    		             	cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+								              	
+			
+						}
+						else if(((t>=700)&&(t<800)&&(l<=300))||((l>150)&&(l<200)&&(t>=700&&t<=1000)))
+						{
+							int fees=125000;
+							name();
+							cout<<"student fees sem  is : 125,000"<<endl<<"student fees per sem with scholarship is :75,000"<<endl;
+							ofstream outFile;
+							outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is : ";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 75000 "; 
+					        outFile.close();
+							cout<<"you want to know about other course :"<<endl;
+							cout<<"press Y "<<endl;
+    		             	cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+								              
+						}
+						else if(t>1000||l>300)
+						{
+							cout<<"enter correct marks"<<endl;
+							goto MADHU;
+						}
+						else if((t<700&&l>120)||(t>700&&l>300))
+						{
+							cout<<"you are not selected for admission in lpu"<<endl;
+							cout<<"you want to know about other course :"<<endl;
+							cout<<"press Y "<<endl;
+    		             	cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+							
+						}
+						else
+						{
+							cout<<"your not eligible for admission in lpu"<<endl;
+							cout<<"you want to know about other course :"<<endl;
+							cout<<"press Y "<<endl;
+    		             	cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+								              	
+						}
+						break;
+					}
+				case 2:
+				{
+					int r,j;
+					RAO:
+						ofstream outFile;
+				     	outFile.open("mahesh.txt",ios::app);
+				     	outFile<<endl<<"STUDENT INFORMATION IS   : ";
+		            	cout<<"enter 10th marks must be in percentage form : ";
+			            cin>>r;
+		            	outFile<<endl<<"student  10th marks are :";
+			            outFile<<r;
+				        cout<<"enter 12th marks : ";
+			            cin>>j;
+			            outFile<<endl<<"student  12th marks are :";
+			            outFile<<j;
+				        outFile.close();
+					
+					if(((r>=90)&&(r<=100)&&(j>700&&j<=1000))||((j>=900)&&(j<=1000)&&(r>=70&&r<=100)))
+					{
+						int fees=75000;
+						name();
+						cout<<"student fees per sem is 75000"<<endl<<"student fees per sem with scholarship is 15,000 "<<endl;
+						ofstream outFile;
+						outFile.open("mahesh.txt",ios::app);
+						outFile<<endl<<"student fees per sem is : ";
+					    outFile<<fees;
+					    outFile<<endl<<"student fees per sem with scholarship is : 15000 ";
+					    outFile.close();
+						cout<<"you want to know about other course : "<<endl;
+						cout<<"press Y "<<endl;
+    		            cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+								              
+					}
+					else if(((r>=80)&&(r<90)&&(j>700&&j<=1000))||((j>=800)&&(j<900)&&(r>=70&&r<=100)))
+					{
+						int fees=100000;
+						name();
+						cout<<"student fees is :100,000"<<endl<<"student fees per sem with scholarship is :50,000";
+						ofstream outFile;
+						outFile.open("mahesh.txt",ios::app);
+						outFile<<endl<<"student fees per sem is  : ";
+					    outFile<<fees;
+					    outFile<<endl<<"student fees per sem with scholarship is : 50000 ";
+					    outFile.close();
+						cout<<"you want to know about other course : "<<endl;
+						cout<<"press Y "<<endl;
+    		            cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+					
+	
+					}
+					else if(((r>=70)&&(r<80)&&(j>700&&j<=1000))||((j>=700)&&(j<=800)&&(r>=70&&r<=100)))
+					{
+						int fees=125000;
+						name();
+						cout<<"student fees is :125,000"<<endl<<"student fees per sem with scholarship is: 75,000";
+						ofstream outFile;
+						outFile.open("mahesh.txt",ios::app);
+						outFile<<endl<<"student fees per sem is : ";
+					    outFile<<fees;
+					    outFile<<endl<<"student fees per sem with scholarship is : 75000 ";
+					    outFile.close();
+						cout<<"you want to know about other course : "<<endl;
+						cout<<"press Y "<<endl;
+    		            cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+					}
+					else if(r>100||j>1000)
+					{
+						cout<<"enter correct marks"<<endl;
+						goto RAO;
+					}
+					else if((r<70&&j>700)||(r>70&&j<700)||(r<70&&j<700))
+					{
+						cout<<"you are not selected for admission in lpu"<<endl;
+						cout<<"you want to know about other course : "<<endl;
+						cout<<"press Y "<<endl;
+    		            cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+							
+					}
+					else
+					{
+						name();
+						cout<<"sorry you are not eligible for admission in lpu"<<endl;
+					    cout<<"you want to know about other course : "<<endl;
+						cout<<"press Y "<<endl;
+    		            cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+					}
+					break;
+				}	
+				default:
+					{
+						cout<<"enter correct choice"<<endl;
+						goto CSE;
+					}
+			}
+		}
+	void N()
+	{
+		int o;
+	    cout<<"are you from LPU"<<endl;
+	    cout<<"1.yes or no"<<endl;
+	    cin>>o;
+		switch(o)
+		case 1:
+		{
+		   int l;
+		   siva:
+		   	cout<<"choose your course in graduation correctly"<<endl;
+		   cout<<"1.M.TECH(cse||ECE)"<<endl<<"2.Ph.D(cse||MEC||ECE||EE||CE||CHE||MOLecular biology)"<<endl;
+		   cin>>l;
+		    switch(l)
+		    {
+			case 1:
+			{
+				
+		    int n;
+			ram:
+			cout<<"1.lpu test is written"<<endl<<"2.lpu test  is not written"<<endl;
+			cin>>n;
+			switch(n)
+			{
+				case 1:
+					{
+						float g,u;
+						
+						
+						hug:
+							char c[100]="M.tech";
+							ofstream outFile;
+							outFile.open("mahesh.txt",ios::app);
+							outFile<<endl<<"STUDENT INFORMATION IS   : ";
+					    	cout<<"enter gate marks must be in percentage form : ";
+						    cin>>g;
+						    outFile<<endl<<"student gate marks are :";
+							outFile<<g;
+							cout<<"enter lpunest marks must be in percentage form : ";
+						    cin>>u;
+			                outFile<<endl<<"student LPU NEST marks are :";
+		    			    outFile<<u;
+			                outFile<<endl<<"student course is :";
+						    outFile<<c;
+				            outFile.close();
+						if((g>=90.0)&&(g<=100.0)||(u>=90.0)&&(u<=100))
+						{
+							int fees=80000;
+							name();
+							cout<<"student fees is:80,000"<<endl<<"student fees per sem with scholarship is :30,000";
+					      	ofstream outFile;
+						    outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is : ";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 30000 "; 
+					        outFile.close();
+						cout<<"you want to know about other course : "<<endl;
+						cout<<"press Y "<<endl;
+    		            cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+						}
+						else if((g>=80.0)&&(g<90)||(u>80.0)&&(u<90.0))
+						
+						{
+							int fees=100000;
+							name();
+							cout<<"student fees per sem  is :100,000"<<endl<<"student fees per sem with scholarship is :50,000";
+					      	ofstream outFile;
+						    outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is : ";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 50000 ";
+					        outFile.close();
+						    cout<<"you want to know about other course : "<<endl;
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+						     }
+						}
+						else if((g>=70.0)&&(g<80.0)||(u>70.0)&&(u<80.0))
+						{
+							int fees=125000;
+							name();
+							cout<<"student fees is :125,000"<<endl<<"student fees per sem with scholarship is :75,000";
+					      	ofstream outFile;
+						    outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is : ";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 75000 "; 
+					        outFile.close();
+							cout<<"you want to know about other course : "<<endl;
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+						}
+						else if(g>100||u>100||g<0||u<0)
+						{
+							cout<<"enter correct marks"<<endl;
+							goto hug;
+						}
+						else
+						{
+							cout<<"your not eligible for admission in lpu"<<endl;
+							cout<<"you want to know about other course :";
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+						}
+						break;
+					}
+				case 2:
+				{
+					float w,y;
+					char c[100]="M.Tech";
+					mro:
+						ofstream outFile;
+						outFile.open("mahesh.txt",ios::app);
+						outFile<<endl<<"STUDENT INFORMATION IS   : ";
+					   	cout<<"enter engineering  marks must be in percentage form : ";
+					    cin>>w;
+					    outFile<<endl<<"student engineering marks are :";
+						outFile<<w;
+						cout<<"enter gate marks must be in percentage form : ";
+					    cin>>y;
+			            outFile<<endl<<"student gate marks are :";
+		    		    outFile<<y;
+			            outFile<<endl<<"student course is :";
+					    outFile<<c;
+				        outFile.close();
+				        if((w>=90.0)&&(w<=100.0)||(y>=90.0)&&(y<=100)&&(w>70))
+						{
+							int fees=80000;
+							name();
+							cout<<" student fees per sem is : 80000"<<endl<<"student fees per sem with scholarship is : 30,000";
+					      	ofstream outFile;
+						    outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is  : ";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 30000 ";
+					        outFile.close();
+							cout<<"you want to know about other course :"<<endl;
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+						}
+						else if((w>=80.0)&&(w<90)||(y>80.0)&&(y<90.0)&&(w>70))
+						
+						{
+							int fees=100000;
+							name();
+							cout<<"your fees is :100,000"<<endl<<"your fees per sem with scholarship is :50,000";
+					      	ofstream outFile;
+						    outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is  :";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 50000 ";
+					        outFile.close();
+							cout<<"you want to know about other course : "<<endl;
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+						}
+						else if((w>=70.0)&&(w<80.0)||(y>70.0)&&(y<80.0)&&(w>70))
+						{
+							int fees=125000;
+							name();
+							cout<<"your fees is :125,000"<<endl<<"your fees per sem with scholarship is :75,000";
+					      	ofstream outFile;
+						    outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is : ";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 75000 "; 
+					        outFile.close();
+							cout<<"you want to know about other course : "<<endl;
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+						}
+						else if(w<70&&y>70)
+						{
+							 cout<<"you are not selected for admission in lpu"<<endl;
+							 cout<<"you want to know about other course : "<<endl;
+					     	cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+						}
+						else if(w>100||y>100&&w<0||y<0)
+						{
+							cout<<"enter correct marks"<<endl;
+							goto hug;
+						}
+						else
+						{
+							cout<<"your not eligible for admission in lpu"<<endl;
+							cout<<"you want to know about other course :"<<endl;
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+						}
+				
+					break;
+				}	
+				default:
+					{
+						cout<<"enter correct choice"<<endl;
+						goto ram;
+					}
+			}	
+		}
+		case 2:
+			{
+		    	int o;
+			    cout<<"are you from engineering "<<endl;
+			    cout<<"press 1.yes or no"<<endl;
+			    cin>>o;
+			switch(o)
+			{
+				case 1:
+				{
+				
+				int i;
+		    	car:
+		     	cout<<"1.lpu test is written"<<endl<<"2.lpu test  is not written"<<endl;
+			    cin>>i;
+			    switch(i)
+			    {
+				case 1:
+					{
+						float z,j;
+						char c[100]="Ph.D";
+						
+						gun:
+						    ofstream outFile;
+						    outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"STUDENT INFORMATION IS   : ";
+					    	cout<<"enter gate marks must be in percentage form : ";
+						    cin>>z;
+						    outFile<<endl<<"student gate marks are :";
+							outFile<<z;
+							cout<<"enter lpunest marks must be in percentage form : ";
+						    cin>>j;
+			                outFile<<endl<<"student LPU NEST marks are :";
+		    			    outFile<<j;
+			                outFile<<endl<<"student course is :";
+						    outFile<<c;
+				            outFile.close();				
+						if((z>=90.0)&&(z<=100.0)||(j>=90.0)&&(j<=100))
+						{
+							int fees=80000;
+							name();
+							cout<<"student fees is : 80,000"<<endl<<"student fees per sem with scholarship is :30,000";
+					      	ofstream outFile;
+						    outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is  : ";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 30000 "; 
+					        outFile.close();
+							cout<<"you want to know about other course :"<<endl;
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+						}
+						else if((z>=80.0)&&(z<90)||(j>80.0)&&(j<90.0))
+						
+						{
+							int fees=50000;
+							name();
+							
+							cout<<"student fees per sem  is : 100,000"<<endl<<"student fees per sem with scholarship is : 50,000";
+					      	ofstream outFile;
+						    outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is : ";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 50000 "; 
+					        outFile.close();
+							cout<<"you want to know about other course :"<<endl;
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+						}
+						else if((z>=70.0)&&(z<80.0)||(j>70.0)&&(j<80.0))
+						{
+							int fees=125000;
+							name();
+							cout<<"student fees is :125,000"<<endl<<"student fees per sem with scholarship is :75,000";
+					      	ofstream outFile;
+						    outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is : ";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 75000 "; 
+					        outFile.close();
+							cout<<"you want to know about other course :"<<endl;
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+					
+						}
+						else if(z>100||j>100&&z<0||j<0)
+						{
+							cout<<"enter correct marks"<<endl;
+							goto gun;
+						}
+						else
+						{
+							cout<<"your not eligible for admission in lpu"<<endl;
+							cout<<"you want to know about other course :"<<endl;
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+				
+						}
+						break;
+					}
+				case 2:
+				{
+					float f,d;
+					char c[100]="Ph.d";
+					mar:
+						ofstream outFile;
+						outFile.open("mahesh.txt",ios::app);
+						outFile<<"STUDENT INFORMATION IS   : ";
+					   	cout<<"enter engineering  marks must be in percentage form : ";
+					    cin>>f;
+					    outFile<<endl<<"student engineering marks are :";
+						outFile<<f;
+						cout<<"enter gate marks must be in percentage form :";
+					    cin>>d;
+			            outFile<<endl<<"student gate marks are :";
+		    		    outFile<<d;
+			            outFile<<endl<<"student course is :";
+					    outFile<<c;
+				        outFile.close();
+						if((f>=90.0)&&(f<=100.0)&&(f>60)||(d>=90.0)&&(d<=100)&&(f>60))
+						{
+							int fees=80000;
+							name();
+							cout<<"your fees is :80,000"<<endl<<"your fees per sem with scholarship is :30,000";
+					      	ofstream outFile;
+						    outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is : ";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 30000 "; 
+					        outFile.close();
+							cout<<"you want to know about other course :";
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+					
+						}
+						else if((f>=80.0)&&(f<90)&&(f>60)||(d>80.0)&&(d<90.0)&&(f>60))
+						
+						{
+							int fees=100000;
+							name();
+							cout<<"student fees per sem is 100,000"<<endl;
+							cout<<"student fees is 100,000"<<endl<<"student fees per sem with scholarship is 50,000";
+					      	ofstream outFile;
+						    outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is  : ";
+					        outFile<<fees;
+					        outFile.close();
+							cout<<"you want to know about other course :"<<endl;
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+							
+						}
+						else if((f>=70.0)&&(f<80.0)&&(f>60)||(d>70.0)&&(d<80.0)&&(f>60))
+						{
+							int fees=125000;
+							name();
+							cout<<"student fees is : 125,000"<<endl<<"student fees per sem with scholarship is : 75,000";
+					      	ofstream outFile;
+						    outFile.open("mahesh.txt",ios::app);
+						    outFile<<endl<<"student fees per sem is : ";
+					        outFile<<fees;
+					        outFile<<endl<<"student fees per sem with scholarship is : 75000 "; 
+					        outFile.close();
+							cout<<"you want to know about other course :"<<endl;
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+							
+						}
+						else if(f<70&&d>70)
+						{
+							cout<<"you are not selected for admission in lpu"<<endl;
+							cout<<"you want to know about other course :"<<endl;
+					      	cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+						}
+						else if(f>100||d>100&&f<0||d<0)
+						{
+							cout<<"enter correct marks"<<endl;
+							goto mar;
+						}
+						else
+						{
+							cout<<"your not eligible for admission in lpu"<<endl;
+							cout<<"you want to know about other course :"<<endl;
+						    cout<<"press Y "<<endl;
+    		                cin>>ch;
+    		             	if(ch=='Y'||ch=='y')
+    		             	{
+    		             		menu();
+							 }
+							 else
+							 {
+							 	exit(0);
+							 }
+							
+						}
+				
+					break;
+				}	
+				default:
+					{
+						cout<<"enter correct choice"<<endl;
+						goto car;
+					}
+			}	
+		default:
+			{
+				cout<<"enter correct choice"<<endl;
+				goto car;
+			}
+		}
+	}
+
+	}
+}
+default:
+	{
+		cout<<"enter correct choice"<<endl;
+		goto siva;
+	}
+}
+}
+};
+int main()
+{
+	system("color E");
+	cout<<"\n\n\t\t\t\t\t NAME:M.Madhu sudhan rao";
+	cout<<"\n\n\t\t\t\t\t Submitted To :JYOTHI GODARA";
+	cout<<"\n\n\t\t\t\t\t Submitted By: M.MADHU SUDHAN RAO";
+	cout<<"\n\n\t\t\t\t\t Registration Number:11701856";
+	cout<<"\n\n\t\t\t\t\t WELCOME TO SCHOLARSHIP MANAGEMENT SYSTEM \n\n\n\n ";
+	int a,n;
+	char s1[100],s2[100],s3[4]="ABC",s4[5]="DEF",s5[6]="RAO",s6[7]="123",s7[7]="564",s8[8]="464",s;
+	cout<<"\nChooose the content u have to select:\t\n\t1.ADMIN\n\t2.NEW USER\n\t\t";
+	cin>>n;
+	switch(n)
+	{
+		case 1:
+			USER:
+			{
+			cout<<"enter  user name :";
+			cin>>s1;
+			if(strcmp(s1,s3)==0||strcmp(s1,s4)==0||strcmp(s1,s5)==0)
+			{
+				PASS:
+				cout<<"enter password : ";
+				system("cls");
+	         	cout<<"\n\t\t\t\t\t\t\t\t\tplease enter the password::";
+		        fflush(stdin);
+	           	char pwd[5];
+		        int i=0;
+		        while(i<5)
+	          	{
+			      pwd[i]=getch();
+			      cout<<"*";
+			      ++i;
+		        }
+	          	if (strcmp(pwd,"00000")==0)
+		        {
+			      system("cls");
+			      cout<<"\n\t\t\tWELCOME TO SCHOLARSHIP MANAGEMENT SYSTEM\n";
+			      goto z;
+		        }
+		        else
+		        {
+			      cout<<"\n\t\t\t\t\t\t\t\t\twrong try again";
+			      goto PASS;
+		    	}
+			}
+				else
+				{
+					cout<<"enter correct user name : "<<endl;
+					goto USER;
+				}
+
+		}
+		case 2:
+			{
+				MASS:
+				cout<<"enter user name : "<<endl;
+				cin>>s1;
+				cout<<"enter password :";
+				cin>>s2;
+				goto z;  
+			}
+	}
+	z:
+	cout<<"Select to proceed : \n";
+	cout<<"\t1.Proceed with admission.\n\t2.BowOuT\n\t\t\t\t";
+	cin>>a;
+	switch(a)
+	{
+		case 1:
+			bcd obj1;
+			obj1.menu();
+			break;
+		case 2:
+			exit(0);
+		default:
+			cout<<"Selected value is out of bound";
+			goto z;
+	}
+}
